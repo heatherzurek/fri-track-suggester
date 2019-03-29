@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("#quiz").submit(function(event) {
+  $("form#quiz").submit(function(event) {
     var location = $("#location").val();
     var type = $("#type").val();
     // var interest = $("#interest").val();
@@ -7,9 +7,11 @@ $(document).ready(function() {
     // var android = $("#android").val();
 
     if (type === "1") {
-      $("#type").removeClass();
+          $(".typeOne").show();
+    } else {
+
     }
 
-    event.preventDefalult();
+    event.preventDefault();
   });
 });
