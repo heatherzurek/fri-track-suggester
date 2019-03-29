@@ -1,9 +1,10 @@
 body {
-  position: relative;
-  background: linear-gradient(to top left, #ebebeb 49.8%, #fff 50%);
+  background: linear-gradient(to top left, #a7bca7 49.8%, #ffffff 50%);
   margin-top: 5%;
   font-family: 'Roboto', sans-serif;
-  border-top-color: black;
+  background-position: fixed;
+  top:0; left:0;
+  z-index:-1;
 }
 
 
