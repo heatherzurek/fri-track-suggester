@@ -11,15 +11,39 @@
   <body>
     <div class="container">
       <form id="quiz">
-        <h4>Availability</h4>
+
+        <h4>What is your location?</h4>
+        <select class="form-control" id="location">
+          <option>Portland</option>
+          <option>Seattle</option>
+          </select>
+
+        <h4>What is your availability?</h4>
         <select class="form-control" id="type">
           <option>Part-Time</option>
           <option>Full-Time</option>
         </select>
+
+        <h4>What interests you the most?</h4>
         <select class="form-control" id="interest">
           <option>Design</option>
           <option>How it works</option>
           <option>Both</option>
+        </select>
+
+        <h4>What type of company do you prefer?</h4>
+        <select class="form-control" id="company">
+          <option>Enterprise</option>
+          <option>Start up</option>
+        </select>
+
+        <h4>Do you want to work with android?</h4>
+        <div class="form-android">
+          <label for="android">Yes or no?
+            <input id="android" class="form-android" type="text">
+          </label>
+        </div>
+
       </form>
     </div>
   </body>
