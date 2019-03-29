@@ -4,7 +4,7 @@ $(document).ready(function() {
     var type = $("#type").val();
     var interest = $("#interest").val();
     var company = $("#company").val();
-    var android = $("#android").val();
+    var learn = $("#learn").val();
 
     if (type === "1") {
       $(".typeTwo").hide();
@@ -15,8 +15,15 @@ $(document).ready(function() {
     } else if (type === "2" && interest === "1") {
       $(".typeTwo, .typeOne").hide();
       $(".typeThree").show();
+    } else if (type === "2" && interest === "3" && company === "1") {
+      $(".typeOne").hide();
+      $(".typeTwo, .typeThree").hide();
+      $(".typeFour").show();
+    } else {
+      $(".typeOne, .typeTwo").hide();
+      $(".typeThree, .typeFour").hide();
+      $(".typeFive").show();
     }
-
 
     event.preventDefault();
   });

@@ -42,6 +42,14 @@ margin-right: auto;
   display: none;
 }
 
+.typeFour {
+  display: none;
+}
+
+.typeFive {
+  display: none;
+}
+
 img {
     height: 100px;
 }
