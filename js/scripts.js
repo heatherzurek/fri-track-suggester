@@ -9,7 +9,7 @@ $(document).ready(function() {
     if (type === "1") {
       $(".typeTwo").hide();
       $(".typeOne").show();
-    } else if ( type === "2" && company === "2" && interest === "2" || interest === "3" ) {
+    } else if (interest === "2" && type === "2" && company === "2" ) {
       $(".typeOne, .typeThree").hide();
       $(".typeTwo").show();
     } else if (type === "2" && interest === "1") {
