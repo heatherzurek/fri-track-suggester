@@ -2,7 +2,7 @@ body {
   margin-top: 2%;
   margin-bottom: 2%;
   font-family: 'Roboto', sans-serif;
-  background-image: url(https://cdn.dribbble.com/users/822246/screenshots/3178778/coding_line_seamless_pattern-01.jpg);
+  background-image: url(https://sketchcasts.s3.amazonaws.com/episodes/55/thumbnail/coding-a-background-animation.png);
 }
 
 h1 {
@@ -17,22 +17,31 @@ h2 {
 
 h4 {
   text-align: center;
-  background-color: #2e5e1c;
+  background-color: #192d7f;
   color: #ffffff;
   font-weight: bold;
 }
 
 button {
-  background-color: #2e5e1c;
+  background-color: #192d7f;
   color: #ffffff;
   padding: 30px;
 }
 
+footer {
+  margin-top: 10%;
+  text-align: center;
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+  background-color: #edc125;
+}
 
 .container {
-  /* border: 12px solid #a2bfb3; */
-  background-color: white;
-  max-width: 700px;
+  background-color: #ffffff;
+  max-width: 800px;
   padding: 20px;
 }
 

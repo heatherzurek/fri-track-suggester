@@ -1,8 +1,8 @@
-# _{Application Name}_
+# _Epicodus Program Track Suggestion_
 
 #### _{Brief description of application}, {Date of current version}_
 
-#### By _**{List of contributors}**_
+#### By _Heather Zurek_
 
 ## Description
 
@@ -20,7 +20,7 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_No known bugs_
 
 ## Support and contact details
 
