@@ -10,8 +10,8 @@
   </head>
   <body>
     <div class="container">
+      <h2>What programming track should you attend at Epicodus?</h2>
       <form id="quiz">
-
         <h4>What is your location?</h4>
         <select class="form-control" id="location">
           <option value="1">Portland</option>
@@ -24,17 +24,17 @@
           <option value ="2">Full-Time</option>
         </select>
 
-        <!-- <h4>What interests you the most?</h4>
+        <h4>What interests you the most?</h4>
         <select class="form-control" id="interest">
-          <option>Design</option>
-          <option>How it works</option>
-          <option>Both</option>
+          <option value ="1">Design</option>
+          <option value ="2">How it works</option>
+          <option value="3">Both</option>
         </select>
 
         <h4>What type of company do you prefer?</h4>
         <select class="form-control" id="company">
-          <option>Enterprise</option>
-          <option>Start up</option>
+          <option value="1">Enterprise</option>
+          <option value="2">Start up</option>
         </select>
 
         <h4>Do you want to work with android?</h4>
@@ -42,12 +42,21 @@
           <label for="android">Yes or no?
             <input id="android" class="form-android" type="text">
           </label>
-        </div> -->
+        </div>
+
         <button type="submit" class="btn">Submit</button>
       </form>
 
       <div class="typeOne">
         <p>You should do part time!</p>
+      </div>
+
+      <div class="typeTwo">
+        <img src="img/rubyrails.png" alt="ruby on rails icon">
+        <h4>You should do Ruby/Rails!</h4>
+        <p>Ruby is a favorite language of developers building interactive web applications. If an app involves users creating accounts, entering information, and interacting with dynamic content, there's a good chance it is built with Ruby. Ruby became popular because the Rails framework, which is written with Ruby, simplified many of the common tasks associated with building web applications. It's most popular with startups and smaller companies who are looking to build their product quickly.
+
+        Though each language has its niche, there is plenty of crossover. For example, Rails' popularity inspired copycats in just about every language, and so you'll see interactive web applications written in C#, Java, and PHP, with Rails-like frameworks including .NET MVC, Spring, and Laravel. Even at one company, you might find them using PHP for their marketing site, Ruby for their web application, and Java for their back-end processing. </p>
       </div>
 
     </div>

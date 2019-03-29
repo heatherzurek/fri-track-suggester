@@ -1,9 +1,22 @@
-/* .container {
-  margin-top: 15%;
+body {
+  background-color: #a1dee2;
+}
+
+.container {
   max-width: 550px;
   border: 6px solid lightblue;
-} */
+}
 
 .typeOne {
   display: none;
+}
+
+.typeTwo {
+  display: none;
+}
+
+img {
+  float: left;
+    height: 100px;
+    width: 100px;
 }
