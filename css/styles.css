@@ -1,5 +1,6 @@
 body {
-  margin-top: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -11,11 +12,11 @@ body {
   padding: 20px;
 }
 
-.form-control:valid {
+/* .form-control:valid {
   background-color:  #27938e!important;
   border: 3px solid #000000;
   color: #ffffff;
-}
+} */
 
 .center {
 display: block;
@@ -27,7 +28,7 @@ margin-right: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: 3px solid #000000;
+  /* border: 3px solid #000000; */
 }
 
 .typeOne {
@@ -55,8 +56,6 @@ img {
 }
 
 button {
-  text-align: center;
-  font-weight: bold;
-  color: #ffffff;
-  background-color: #27938e;
+  background-color: lightblue;
+  padding: 30px;
 }
