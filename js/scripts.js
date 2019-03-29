@@ -6,11 +6,11 @@ $(document).ready(function() {
     var company = $("#company").val();
     var learn = $("#learn").val();
 
-    if (type === "1") {
+    if (type === "1" && location === "1" || location === "2") {
       $(".typeTwo, .typeThree").hide();
       $(".typeFour, .typeFive").hide();
       $(".typeOne").show();
-    } else if (interest === "2" && type === "2" && company === "2" ) {
+    } else if (interest === "2" && type === "2" && company === "2") {
       $(".typeOne, .typeThree").hide();
       $(".typeFour, .typeFive").hide();
       $(".typeTwo").show();
