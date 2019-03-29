@@ -6,7 +6,7 @@ $(document).ready(function() {
     var company = $("#company").val();
     var learn = $("#learn").val();
 
-    if (type === "1" && location === "1" || location === "2") {
+    if (type === "1" && location === "1") {
       $(".typeTwo, .typeThree").hide();
       $(".typeFour, .typeFive").hide();
       $(".typeOne").show();
