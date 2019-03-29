@@ -34,18 +34,11 @@ button {
 
 
 .container {
-  /* background: linear-gradient(to top left, #a2bfb3 49.8%, #ffffff 50%);
-  border: 15px solid #a2bfb3; */
-  border: 12px solid #a2bfb3;
+  background: linear-gradient(to top left, #a2bfb3 49.8%, #ffffff 60%);
+  /* border: 12px solid #a2bfb3; */
   max-width: 700px;
   padding: 20px;
 }
-
-/* .form-control:valid {
-  background-color:  #27938e!important;
-  border: 3px solid #000000;
-  color: #ffffff;
-} */
 
 .center {
 display: block;
@@ -57,7 +50,6 @@ margin-right: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /* border: 3px solid #000000; */
 }
 
 .typeOne {

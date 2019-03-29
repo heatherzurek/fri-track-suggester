@@ -5,19 +5,18 @@ $(document).ready(function() {
     var interest = $("#interest").val();
     var company = $("#company").val();
     var learn = $("#learn").val();
-    // var name = $("#name").val();
 
     if (type === "1") {
       $(".typeTwo, .typeThree").hide();
-      $("typeFour, .typeFive").hide();
+      $(".typeFour, .typeFive").hide();
       $(".typeOne").show();
     } else if (interest === "2" && type === "2" && company === "2" ) {
       $(".typeOne, .typeThree").hide();
-      $("typeFour, .typeFive").hide();
+      $(".typeFour, .typeFive").hide();
       $(".typeTwo").show();
     } else if (type === "2" && interest === "1") {
-      $(".typeTwo, .typeOne").hide();
-      $("typeFour, .typeFive").hide();
+      $(".typeOne, .typeTwo").hide();
+      $(".typeFour, .typeFive").hide();
       $(".typeThree").show();
     } else if (type === "2" && interest === "3" && company === "1") {
       $(".typeOne, .typeFive").hide();
