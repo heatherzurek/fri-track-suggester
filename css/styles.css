@@ -1,10 +1,25 @@
 body {
-  background-color: #a1dee2;
+  background-color: #63c7ce;
+  margin-top: 5%;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
-  max-width: 550px;
-  border: 6px solid lightblue;
+  max-width: 700px;
+  border: 10px solid black;
+  padding: 20px;
+  background-color: #ffffff;
+}
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .typeOne {
@@ -15,8 +30,17 @@ body {
   display: none;
 }
 
+.typeThree {
+  display: none;
+}
+
 img {
-  float: left;
     height: 100px;
-    width: 100px;
+}
+
+button {
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #4a8c7f;
 }

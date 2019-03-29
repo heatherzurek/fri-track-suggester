@@ -9,8 +9,12 @@ $(document).ready(function() {
     if (type === "1") {
       $(".typeTwo").hide();
       $(".typeOne").show();
-    } else if ( type === "2" && company === "2" && interest === "2" ) {
+    } else if ( type === "2" && company === "2" && interest === "2" || interest === "3" ) {
+      $(".typeOne, .typeThree").hide();
       $(".typeTwo").show();
+    } else if (type === "2" && interest === "1") {
+      $(".typeTwo, .typeOne").hide();
+      $(".typeThree").show();
     }
 
 
