@@ -55,6 +55,11 @@ img {
     height: 100px;
 }
 
+p {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
 button {
   background-color: lightblue;
   padding: 30px;
