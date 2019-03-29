@@ -5,6 +5,7 @@ $(document).ready(function() {
     var interest = $("#interest").val();
     var company = $("#company").val();
     var learn = $("#learn").val();
+    // var name = $("#name").val();
 
     if (type === "1") {
       $(".typeTwo").hide();
@@ -24,6 +25,8 @@ $(document).ready(function() {
       $(".typeThree, .typeFour").hide();
       $(".typeFive").show();
     }
+
+    // $(".name").text(nameInput);
 
     event.preventDefault();
   });
