@@ -8,16 +8,19 @@ $(document).ready(function() {
     // var name = $("#name").val();
 
     if (type === "1") {
-      $(".typeTwo").hide();
+      $(".typeTwo, .typeThree").hide();
+      $("typeFour, .typeFive").hide();
       $(".typeOne").show();
     } else if (interest === "2" && type === "2" && company === "2" ) {
       $(".typeOne, .typeThree").hide();
+      $("typeFour, .typeFive").hide();
       $(".typeTwo").show();
     } else if (type === "2" && interest === "1") {
       $(".typeTwo, .typeOne").hide();
+      $("typeFour, .typeFive").hide();
       $(".typeThree").show();
     } else if (type === "2" && interest === "3" && company === "1") {
-      $(".typeOne").hide();
+      $(".typeOne, .typeFive").hide();
       $(".typeTwo, .typeThree").hide();
       $(".typeFour").show();
     } else {
