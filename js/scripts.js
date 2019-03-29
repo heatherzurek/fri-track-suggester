@@ -28,8 +28,6 @@ $(document).ready(function() {
       $(".typeFive").show();
     }
 
-    // $(".name").text(nameInput);
-
     event.preventDefault();
   });
 });

@@ -2,6 +2,7 @@ body {
   margin-top: 2%;
   margin-bottom: 2%;
   font-family: 'Roboto', sans-serif;
+  background-image: url(http://thepatternlibrary.com/img/ao.gif);
 }
 
 h1 {
@@ -21,12 +22,6 @@ h4 {
   font-weight: bold;
 }
 
-/* img {
-  float: left;
-  height: 100px;
-} */
-
-
 button {
   background-color: #48876d;
   padding: 30px;
@@ -34,8 +29,8 @@ button {
 
 
 .container {
-  background: linear-gradient(to top left, #a2bfb3 49.8%, #ffffff 60%);
-  /* border: 12px solid #a2bfb3; */
+  border: 12px solid #a2bfb3;
+  background-color: white;
   max-width: 700px;
   padding: 20px;
 }
