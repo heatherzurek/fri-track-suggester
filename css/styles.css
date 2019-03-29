@@ -1,15 +1,17 @@
 body {
-  background-color: #63c7ce;
+  position: relative;
+  background: linear-gradient(to top left, #ebebeb 49.8%, #fff 50%);
   margin-top: 5%;
   font-family: 'Roboto', sans-serif;
+  border-top-color: black;
 }
+
 
 .container {
   max-width: 700px;
-  border: 10px solid black;
   padding: 20px;
-  background-color: #ffffff;
 }
+
 .center {
 display: block;
 margin-left: auto;
