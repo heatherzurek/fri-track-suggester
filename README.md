@@ -13,6 +13,8 @@ _This is a website using JavaScript, jQuery, CSS, Bootstrap, and HTML, that help
 * _Clone down using terminal_
 * _open in Atom_
 * _or open Index.html by double clicking_
+* _or view at the link below_
+_https://heatherzurek.github.io/fri-track-suggester/_
 
 ## Known Bugs
 
