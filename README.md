@@ -1,6 +1,6 @@
 # _Epicodus Program Track Suggestion_
 
-#### _A quiz to help you choose a track, March 29, 2019_
+#### _A quiz to help you choose a Epicodus programming track, March 29, 2019_
 
 #### By _Heather Zurek_
 
