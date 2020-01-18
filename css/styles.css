@@ -60,22 +60,26 @@ margin-right: auto;
   margin-right: auto;
 }
 
-.typeOne {
+.intro {
   display: none;
 }
 
-.typeTwo {
+.ruby {
   display: none;
 }
 
-.typeThree {
+.design {
   display: none;
 }
 
-.typeFour {
+.csharp {
   display: none;
 }
 
-.typeFive {
+.try-it {
+  display: none;
+}
+
+.name {
   display: none;
 }

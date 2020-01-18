@@ -1,10 +1,14 @@
 $(document).ready(function() {
   $("#quiz").submit(function(event) {
+    var name = $("#name").val();
     var location = $("#location").val();
     var type = $("#type").val();
     var interest = $("#interest").val();
     var company = $("#company").val();
     var learn = $("#learn").val();
+
+    $(".name").text(name);
+
 
     if (type === "1") {
       $(".ruby, .design").hide();
@@ -27,7 +31,6 @@ $(document).ready(function() {
       $(".design, .csharp").hide();
       $(".try-it").show();
     }
-
 
     event.preventDefault();
   });
