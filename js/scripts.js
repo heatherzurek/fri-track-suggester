@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("form#quiz").submit(function(event) {
+  $("#quiz").submit(function(event) {
     var location = $("#location").val();
     var type = $("#type").val();
     var interest = $("#interest").val();
@@ -7,25 +7,25 @@ $(document).ready(function() {
     var learn = $("#learn").val();
 
     if (type === "1") {
-      $(".typeTwo, .typeThree").hide();
-      $(".typeFour, .typeFive").hide();
-      $(".typeOne").show();
+      $(".ruby, .design").hide();
+      $(".csharp, .try-it").hide();
+      $(".intro").show();
     } else if (interest === "2" && type === "2" && company === "2") {
-      $(".typeOne, .typeThree").hide();
-      $(".typeFour, .typeFive").hide();
-      $(".typeTwo").show();
+      $(".intro, .design").hide();
+      $(".csharp, .try-it").hide();
+      $(".ruby").show();
     } else if (type === "2" && interest === "1") {
-      $(".typeOne, .typeTwo").hide();
-      $(".typeFour, .typeFive").hide();
-      $(".typeThree").show();
+      $(".intro, .ruby").hide();
+      $(".csharp, .try-it").hide();
+      $(".design").show();
     } else if (type === "2" && interest === "3" && company === "1") {
-      $(".typeOne, .typeFive").hide();
-      $(".typeTwo, .typeThree").hide();
-      $(".typeFour").show();
+      $(".intro, .try-it").hide();
+      $(".ruby, .design").hide();
+      $(".csharp").show();
     } else {
-      $(".typeOne, .typeTwo").hide();
-      $(".typeThree, .typeFour").hide();
-      $(".typeFive").show();
+      $(".intro, .ruby").hide();
+      $(".design, .csharp").hide();
+      $(".try-it").show();
     }
 
 
